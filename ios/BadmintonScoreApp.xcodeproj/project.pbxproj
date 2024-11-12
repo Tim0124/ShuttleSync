@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* BadmintonScoreAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BadmintonScoreAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-BadmintonScoreApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-BadmintonScoreApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a */; };
+		52762EBA2CD9162A00731D63 /* BadmintonScoreWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 52762EB92CD9162A00731D63 /* BadmintonScoreWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E34A0E324C551EEBFCE6A41 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		7C64D13C326C5EA851DBDD24 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C8F285D492CD33F45659BE /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FD838A383242D560E465AA94 /* libPods-BadmintonScoreApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FB1B353653A6FBE0ADEF4A /* libPods-BadmintonScoreApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +26,42 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = BadmintonScoreApp;
 		};
+		52762EBB2CD9162A00731D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52762EB82CD9162A00731D63;
+			remoteInfo = "BadmintonScoreWatchApp Watch App";
+		};
+		52762ECC2CD9162D00731D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52762EB82CD9162A00731D63;
+			remoteInfo = "BadmintonScoreWatchApp Watch App";
+		};
+		52762ED62CD9162D00731D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52762EB82CD9162A00731D63;
+			remoteInfo = "BadmintonScoreWatchApp Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52762EDF2CD9162D00731D63 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				52762EBA2CD9162A00731D63 /* BadmintonScoreWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* BadmintonScoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadmintonScoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,22 +74,32 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BadmintonScoreApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BadmintonScoreApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = BadmintonScoreApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BadmintonScoreApp-BadmintonScoreAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-BadmintonScoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-BadmintonScoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp.release.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-BadmintonScoreApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BadmintonScoreApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143FD2DD1FEABD85BED09891 /* Pods-BadmintonScoreApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3D98107C26964BC70F257A75 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46AE4F3228BA163B89A74138 /* Pods-BadmintonScoreApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp.release.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp.release.xcconfig"; sourceTree = "<group>"; };
+		52762EB42CD9162A00731D63 /* BadmintonScoreWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadmintonScoreWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52762EB92CD9162A00731D63 /* BadmintonScoreWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BadmintonScoreWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52762ECB2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BadmintonScoreWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52762ED52CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BadmintonScoreWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BadmintonScoreApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		91FB1B353653A6FBE0ADEF4A /* libPods-BadmintonScoreApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BadmintonScoreApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99583756DDE17A9160541A7 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig"; path = "Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3C8F285D492CD33F45659BE /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BadmintonScoreApp-BadmintonScoreAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52762EBD2CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "BadmintonScoreWatchApp Watch App"; sourceTree = "<group>"; };
+		52762ECE2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "BadmintonScoreWatchApp Watch AppTests"; sourceTree = "<group>"; };
+		52762ED82CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "BadmintonScoreWatchApp Watch AppUITests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		00E356EB1AD99517003FC87E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a in Frameworks */,
+				7C64D13C326C5EA851DBDD24 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +107,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-BadmintonScoreApp.a in Frameworks */,
+				FD838A383242D560E465AA94 /* libPods-BadmintonScoreApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762EB62CD9162A00731D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762EC82CD9162D00731D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762ED22CD9162D00731D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-BadmintonScoreApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a */,
+				91FB1B353653A6FBE0ADEF4A /* libPods-BadmintonScoreApp.a */,
+				C3C8F285D492CD33F45659BE /* libPods-BadmintonScoreApp-BadmintonScoreAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,6 +189,9 @@
 				13B07FAE1A68108700A75B9A /* BadmintonScoreApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BadmintonScoreAppTests */,
+				52762EBD2CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */,
+				52762ECE2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests */,
+				52762ED82CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -135,6 +206,10 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* BadmintonScoreApp.app */,
 				00E356EE1AD99517003FC87E /* BadmintonScoreAppTests.xctest */,
+				52762EB42CD9162A00731D63 /* BadmintonScoreWatchApp.app */,
+				52762EB92CD9162A00731D63 /* BadmintonScoreWatchApp Watch App.app */,
+				52762ECB2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests.xctest */,
+				52762ED52CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,10 +217,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-BadmintonScoreApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-BadmintonScoreApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig */,
+				143FD2DD1FEABD85BED09891 /* Pods-BadmintonScoreApp.debug.xcconfig */,
+				46AE4F3228BA163B89A74138 /* Pods-BadmintonScoreApp.release.xcconfig */,
+				3D98107C26964BC70F257A75 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig */,
+				B99583756DDE17A9160541A7 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -157,12 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BadmintonScoreAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				042DB55043B61E000D3C64B5 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				B92424D049BA407475D1252D /* [CP] Embed Pods Frameworks */,
+				636ECD858AEB19B4D37CCCDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,13 +253,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "BadmintonScoreApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				3A4CE1B032D26775901AFAD7 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				9B9D5FDFF8BFFCC4B162A7F5 /* [CP] Embed Pods Frameworks */,
+				9FF92B51920284D08B5B23C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,13 +270,102 @@
 			productReference = 13B07F961A680F5B00A75B9A /* BadmintonScoreApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		52762EB32CD9162A00731D63 /* BadmintonScoreWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52762EE72CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp" */;
+			buildPhases = (
+				52762EB22CD9162A00731D63 /* Resources */,
+				52762EDF2CD9162D00731D63 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52762EBC2CD9162A00731D63 /* PBXTargetDependency */,
+			);
+			name = BadmintonScoreWatchApp;
+			packageProductDependencies = (
+			);
+			productName = BadmintonScoreWatchApp;
+			productReference = 52762EB42CD9162A00731D63 /* BadmintonScoreWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		52762EB82CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52762EE62CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp Watch App" */;
+			buildPhases = (
+				52762EB52CD9162A00731D63 /* Sources */,
+				52762EB62CD9162A00731D63 /* Frameworks */,
+				52762EB72CD9162A00731D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52762EBD2CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */,
+			);
+			name = "BadmintonScoreWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "BadmintonScoreWatchApp Watch App";
+			productReference = 52762EB92CD9162A00731D63 /* BadmintonScoreWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52762ECA2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52762EE82CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp Watch AppTests" */;
+			buildPhases = (
+				52762EC72CD9162D00731D63 /* Sources */,
+				52762EC82CD9162D00731D63 /* Frameworks */,
+				52762EC92CD9162D00731D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52762ECD2CD9162D00731D63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52762ECE2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests */,
+			);
+			name = "BadmintonScoreWatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "BadmintonScoreWatchApp Watch AppTests";
+			productReference = 52762ECB2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52762ED42CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52762EE92CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp Watch AppUITests" */;
+			buildPhases = (
+				52762ED12CD9162D00731D63 /* Sources */,
+				52762ED22CD9162D00731D63 /* Frameworks */,
+				52762ED32CD9162D00731D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52762ED72CD9162D00731D63 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				52762ED82CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests */,
+			);
+			name = "BadmintonScoreWatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "BadmintonScoreWatchApp Watch AppUITests";
+			productReference = 52762ED52CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -209,6 +373,20 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					52762EB32CD9162A00731D63 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					52762EB82CD9162A00731D63 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					52762ECA2CD9162D00731D63 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 52762EB82CD9162A00731D63;
+					};
+					52762ED42CD9162D00731D63 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 52762EB82CD9162A00731D63;
 					};
 				};
 			};
@@ -227,6 +405,10 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* BadmintonScoreApp */,
 				00E356ED1AD99517003FC87E /* BadmintonScoreAppTests */,
+				52762EB32CD9162A00731D63 /* BadmintonScoreWatchApp */,
+				52762EB82CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */,
+				52762ECA2CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppTests */,
+				52762ED42CD9162D00731D63 /* BadmintonScoreWatchApp Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +427,35 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6E34A0E324C551EEBFCE6A41 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762EB22CD9162A00731D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762EB72CD9162A00731D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762EC92CD9162D00731D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762ED32CD9162D00731D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,24 +478,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		042DB55043B61E000D3C64B5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +500,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		3A4CE1B032D26775901AFAD7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,24 +522,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		636ECD858AEB19B4D37CCCDA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		9B9D5FDFF8BFFCC4B162A7F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF92B51920284D08B5B23C2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,21 +573,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp/Pods-BadmintonScoreApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+		B92424D049BA407475D1252D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BadmintonScoreApp-BadmintonScoreAppTests/Pods-BadmintonScoreApp-BadmintonScoreAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -399,6 +610,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52762EB52CD9162A00731D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762EC72CD9162D00731D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52762ED12CD9162D00731D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -407,12 +639,27 @@
 			target = 13B07F861A680F5B00A75B9A /* BadmintonScoreApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		52762EBC2CD9162A00731D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52762EB82CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */;
+			targetProxy = 52762EBB2CD9162A00731D63 /* PBXContainerItemProxy */;
+		};
+		52762ECD2CD9162D00731D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52762EB82CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */;
+			targetProxy = 52762ECC2CD9162D00731D63 /* PBXContainerItemProxy */;
+		};
+		52762ED72CD9162D00731D63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52762EB82CD9162A00731D63 /* BadmintonScoreWatchApp Watch App */;
+			targetProxy = 52762ED62CD9162D00731D63 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig */;
+			baseConfigurationReference = 3D98107C26964BC70F257A75 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -439,7 +686,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig */;
+			baseConfigurationReference = B99583756DDE17A9160541A7 /* Pods-BadmintonScoreApp-BadmintonScoreAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -463,13 +710,15 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-BadmintonScoreApp.debug.xcconfig */;
+			baseConfigurationReference = 143FD2DD1FEABD85BED09891 /* Pods-BadmintonScoreApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BadmintonScoreApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,12 +740,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-BadmintonScoreApp.release.xcconfig */;
+			baseConfigurationReference = 46AE4F3228BA163B89A74138 /* Pods-BadmintonScoreApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
 				INFOPLIST_FILE = BadmintonScoreApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -512,6 +763,284 @@
 				PRODUCT_NAME = BadmintonScoreApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		52762EDD2CD9162D00731D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				INFOPLIST_KEY_CFBundleDisplayName = BadmintonScoreWatchApp;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = RN.BadmintonScoreWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		52762EDE2CD9162D00731D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				INFOPLIST_KEY_CFBundleDisplayName = BadmintonScoreWatchApp;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = RN.BadmintonScoreWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		52762EE02CD9162D00731D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"BadmintonScoreWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BadmintonScoreWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = RN.BadmintonScoreWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		52762EE12CD9162D00731D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"BadmintonScoreWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BadmintonScoreWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = RN.BadmintonScoreWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		52762EE22CD9162D00731D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "RN.BadmintonScoreWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadmintonScoreWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BadmintonScoreWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		52762EE32CD9162D00731D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "RN.BadmintonScoreWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadmintonScoreWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BadmintonScoreWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		52762EE42CD9162D00731D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "RN.BadmintonScoreWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BadmintonScoreWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		52762EE52CD9162D00731D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WZNA7LRSDA;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "RN.BadmintonScoreWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BadmintonScoreWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
 			};
 			name = Release;
 		};
@@ -548,6 +1077,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -584,7 +1114,11 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -621,6 +1155,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -649,7 +1184,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -671,6 +1209,42 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52762EE62CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52762EE02CD9162D00731D63 /* Debug */,
+				52762EE12CD9162D00731D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52762EE72CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52762EDD2CD9162D00731D63 /* Debug */,
+				52762EDE2CD9162D00731D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52762EE82CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52762EE22CD9162D00731D63 /* Debug */,
+				52762EE32CD9162D00731D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52762EE92CD9162D00731D63 /* Build configuration list for PBXNativeTarget "BadmintonScoreWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52762EE42CD9162D00731D63 /* Debug */,
+				52762EE52CD9162D00731D63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
